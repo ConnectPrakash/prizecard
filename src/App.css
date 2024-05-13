@@ -1,0 +1,46 @@
+.app {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    margin: 100px 100px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: -moz-linear-gradient(blue, rgb(50, 93, 128));
+    background-color: rgb(115, 115, 210);
+}
+.tick {
+    list-style: none;
+
+   /* Adjust the padding to make space for the tick symbol */
+}
+
+.box {
+    border: 1px solid black;
+    background-color: rgba(248, 247, 246, 0.972);
+    border-radius: 15px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    color:black;
+}
+
+button {
+    border-radius: 20px;
+    font-size: large;
+    width: 175px;
+    height: 40px;
+    background-color: rgb(27, 27, 216);
+}
+
+button:hover {
+    background-color: aliceblue;
+    .box {
+        background-color: rgb(36, 33, 33);
+    }
+}
